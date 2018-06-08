@@ -1,0 +1,191 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html {
+    font-family: "microsoft yahei";
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+    color: #000;
+}
+
+@media screen and (min-width: 640px) {
+    body {
+        width: 640px;
+        left: 50%;
+        margin-left: -320px;
+        position: relative;
+    }
+}
+
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+img,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+span,
+font,
+b,
+i {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    list-style: none;
+}
+
+p {
+    position: relative;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #0e90d2;
+}
+
+img {
+    max-width: 100%;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    -webkit-appearance: none;
+    outline: none;
+}
+
+button {
+    border-radius: 0;
+}
+
+textarea {
+    -webkit-appearance: none;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background: #f7f7f7;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    background: url(../images/close.png) no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+
+.btn1 {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background: #108ee9;
+    color: #fff;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 1.7rem;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.btn2 {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background: #8e8e93;
+    color: #fff;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 1.7rem;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.el-date-picker {
+    max-width: 96%!important;
+}
+
+.red {
+    color: red;
+}
+
+.el-message {
+    width: 90%;
+    min-width: auto!important;
+}
+
+.el-cascader-menu__item {
+    white-space: normal;
+    height: auto;
+    min-height: 34px;
+    width: 160px;
+}
+
+.message {
+    position: fixed;
+    width: 80%;
+    top: -50px;
+    line-height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #666;
+    z-index: 9999;
+    padding: 0 5%;
+    text-indent: 20px;
+    font-size: 1.2rem;
+    background-size: auto 18px;
+    background-repeat: no-repeat;
+    background-position: 10px 7px;
+    color: #595959;
+    left: 5%;
+    opacity: 0.9;
+}
+
+.message.success {
+    background-image: url(../images/success.png);
+    background-color: #fff;
+}
+
+.message.error {
+    background-image: url(../images/error.png);
+    background-color: #fff;
+}
+
+.message.warning {
+    background-image: url(../images/warning.png);
+    background-color: #fff;
+}
